@@ -1,7 +1,6 @@
 package org.example;
 
 
-// Main class to demonstrate the usage of the factory method
 public class Main {
     public static void main(String[] args) {
         // Create different types of tickets using the factory method
@@ -11,7 +10,6 @@ public class Main {
         Ticket firstClassTicket = TicketFactory.createTicket(TicketFactory.TicketType.FIRST_CLASS, "Chennai","Ahmedabad", 4500.0);
 
 
-        // call the display method for each ticket
         economyTicket.display();
         premiumEconomyTicket.display();
         businessTicket.display();
